@@ -2,8 +2,10 @@ from sqlalchemy import true
 
 def reiniciar(): # criando uma função para reiniciar todo o script Obs: minha primeira função (:
 
-    print("""Exercício Python 23: Faça um programa que leia um número de 0 a 9999
-    e mostre na tela cada um dos dígitos separados.""".upper())
+    """Exercício Python 23: Faça um programa que leia um número de 0 a 9999
+    e mostre na tela cada um dos dígitos separados.
+    Obs utilizando listas, funçoes, loops e tratando erros inseridos pelo usuário"""
+
 
 while true: # laço para tratamento de erro
     try: # enquanto a atribuição a variavel número não for inteiro 
