@@ -1,7 +1,7 @@
 from sqlalchemy import true
 
-entrar = 's' #laço tratamento de erro /excedeu o tamanho da lista
-while entrar == 's':
+
+while true: #laço tratamento de erro /excedeu o tamanho da lista
 
     while true: # laço para tratamento de erro para aceitar somente números
         try: # enquanto a atribuição a variavel número não for inteiro 
