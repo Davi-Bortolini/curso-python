@@ -19,7 +19,7 @@ lista_numero = lista_numero.replace('',' ') # atribui espaços a lista entre as 
 lista_numero = lista_numero.split() # divide as casas da lista por espaços
 
 if len(lista_numero) >= 5:  # verifica o tamanho da string e retorna erro se for maior ou igua a 5  
-    x = str(input('Deseja reiniciar o programa? Se SIM digite [s] se NÃo digite [n]! ')) 
+    x = str(input('Ops! Digite um número entre 0 e 9999 \nDeseja reiniciar o programa? Se SIM digite [s] se NÃo digite [n]! ')) 
     if x == 's':
         reiniciar() 
 
