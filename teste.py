@@ -1,9 +1,9 @@
 from sqlalchemy import true
 
-entrar = 's' #laço tratamento de erro /excedeu o tamanho da lista
+entrar = 's'
 while entrar == 's':
 
-    while true: # laço para tratamento de erro para aceitar somente números
+    while true: # laço para tratamento de erro
         try: # enquanto a atribuição a variavel número não for inteiro 
             numero = int(input('Digite um número inteiro entre 0 a 9999: '))
             break # sai do loop de for um inteiro
@@ -42,7 +42,3 @@ while entrar == 's':
     else:
         print(f'A Dezena é {lista_numero[0]}')
         exit(0)
-
-  
- 
-   
