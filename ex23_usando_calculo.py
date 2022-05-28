@@ -16,7 +16,7 @@ while true: # repete todo o script (erro de numero acima de 9999)
             
         else:
             print('Programa encerrado!')
-            break
+            break #encerra o programa
 
         #RESOLUÇAO USANDO MATEMÁTICA
     else:    
@@ -29,4 +29,4 @@ while true: # repete todo o script (erro de numero acima de 9999)
         print(f'A Dezena é {dezena}')
         print(f'A centena é {centena}')
         print(f'O milhar é {milhar}')
-        exit(0)
+        exit(0) #encerra o programa retornando (0) que tudo deu certo.
