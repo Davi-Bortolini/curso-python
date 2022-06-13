@@ -5,7 +5,7 @@ while true: # repete todo o script (erro de numero acima de 9999)
     while true: # laço para tratamento de erro para aceitar somente números
         try: # enquanto a atribuição a variavel número não for inteiro 
             numero = int(input('Digite um número inteiro entre 0 a 9999: '))
-            break # sai do loop de for um inteiro
+            break # sai do loop se for um inteiro
         except ValueError: # trata o erro antes de reiniciar
             print('Ops! Você deve digitar um número!')
 
