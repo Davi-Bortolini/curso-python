@@ -43,7 +43,7 @@ while true: #laço tratamento de erro /excedeu o tamanho da lista
         print(f'A Dezena é {lista_numero[0]}')
         exit(0)
 
-    # próximo ex23 com caculo >>>
+
 
 
   
