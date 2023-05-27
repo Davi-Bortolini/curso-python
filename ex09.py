@@ -1,7 +1,17 @@
-print('Escreva um programa que leia um valor em metros, e exiba ele em centímetros e milímetros!')
+'Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada: '''
 
-x = float(input('Digite um valor em metros: '))
+try: # 
 
-print(f'O valor {x} metros convertidos em milímetros é: {x * 1000:.0f} mm!')
-print(f'O valor {x} metros convertidos em centímetros é {x * 100:.0f} cm!')
+    x = int(input('Digite um número inteiro: '))
+
+except ValueError:
+
+    print('ERRO! Digite um número inteiro válido.')
+    exit() # encerra o programa!
+
+print(f'A tabuada de {x} é: ')
+count = 0
+while count < 11:
+    print(f'{x} x {count:>2} = {x * count}')
+    count = count + 1
 
