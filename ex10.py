@@ -5,10 +5,10 @@ ela pode comprar'''
 import json
 import requests
 
-requisicao = requests.get('https://economia.awesomeapi.com.br/all/USD-BRL') #requisitando dados
+requisicao = requests.get('https://economia.awesomeapi.com.br/all/USD-BRL') # pegando ou requisitando dados da API
 cotacao = requisicao.json() # atribui os elementos do arquivo .json para cotacao(Tupla)
 
-print('Data de hoje: ', cotacao['USD']['create_date'])
+print('Data da última atualização: ', cotacao['USD']['create_date'])
 print('O dólar americano está valendo R$:', cotacao['USD']['bid'], ' Reais')
 
 dolar = float(cotacao['USD']['bid'])
